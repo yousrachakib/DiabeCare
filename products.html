@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DiabeCare Pharmacie - Tous les Produits</title>
+    <meta name="description" content="Découvrez notre gamme complète de produits spécialisés pour le diabète - moniteurs, bandelettes, seringues et plus.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="navigation.css">
+    <link rel="stylesheet" href="product-page.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <style>
+        /* Additional inline styles to enhance product page */
+        .products-hero {
+            background-color: #f8f9fa;
+            padding: 60px 0;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .products-hero h1 {
+            color: #0056b3;
+            margin-bottom: 20px;
+        }
+        
+        .products-grid {
+            padding: 30px 0;
+        }
+        
+        .products-grid h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #333;
+            position: relative;
+        }
+        
+        .products-grid h2:after {
+            content: "";
+            display: block;
+            width: 80px;
+            height: 3px;
+            background-color: #0056b3;
+            margin: 15px auto 0;
+        }
+        
+        .product-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+        
+        .product-card {
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            background-color: #fff;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        
+        .product-image {
+            height: 200px;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #f5f5f5;
+        }
+        
+        .product-image img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+            transition: transform 0.3s ease;
+        }
+        
+        .product-card:hover .product-image img {
+            transform: scale(1.05);
+        }
+        
+        .product-info {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+        }
+        
+        .product-info h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        
+        .product-description {
+            color: #666;
+            margin-bottom: 15px;
+            font-size: 14px;
+            flex-grow: 1;
+        }
+        
+        .product-price {
+            font-weight: bold;
+            font-size: 18px;
+            color: #0056b3;
+            margin-bottom: 15px;
+        }
+        
+        .product-actions {
+            display: flex;
+            gap: 10px;
+        }
+        
+        .btn {
+            padding: 8px 15px;
+            border-radius: 4px;
+            font-size: 14px;
+            cursor: pointer;
+            text-align: center;
+            border: none;
+            transition: background-color 0.3s ease;
+            text-decoration: none;
+        }
+        
+        .btn-primary {
+            background-color: #0056b3;
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background-color: #003d82;
+        }
+        
+        .btn-secondary {
+            background-color: #f5f5f5;
+            color: #333;
+            border: 1px solid #ddd;
+        }
+        
+        .btn-secondary:hover {
+            background-color: #e6e6e6;
+        }
+        
+        .product-categories {
+            background-color: #f8f9fa;
+            padding: 50px 0;
+            margin-top: 40px;
+        }
+        
+        .product-categories h2 {
+            text-align: center;
+            margin-bottom: 40px;
+            color: #333;
+            position: relative;
+        }
+        
+        .product-categories h2:after {
+            content: "";
+            display: block;
+            width: 80px;
+            height: 3px;
+            background-color: #0056b3;
+            margin: 15px auto 0;
+        }
+        
+        .category-boxes {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 30px;
+        }
+        
+        .category-box {
+            background-color: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease;
+            text-align: center;
+            padding-bottom: 20px;
+        }
+        
+        .category-box:hover {
+            transform: translateY(-5px);
+        }
+        
+        .category-box img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+        
+        .category-box h3 {
+            margin: 15px 0 10px;
+            color: #0056b3;
+        }
+        
+        .category-box p {
+            padding: 0 15px;
+            color: #666;
+            font-size: 14px;
+        }
+        
+        @media (max-width: 768px) {
+            .product-cards, .category-boxes {
+                grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+            }
+            
+            .products-hero {
+                padding: 40px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Basic navigation header based on index.html -->
+    <header>
+        <div class="container header-container">
+            <a href="index.html" class="logo">Diabe<span>Care</span></a>
+        </div>
+    </header>
+    <main>
+        <section class="products-hero">
+            <div class="container">
+                <h1>Nos Produits Spécialisés pour le Diabète</h1>
+                <p>DiabeCare propose une gamme complète de produits de qualité pour aider à la gestion du diabète au quotidien.</p>
+            </div>
+        </section>
+
+        <section class="products-grid">
+            <div class="container">
+                <h2>Produits Recommandés</h2>
+                <div class="product-cards">
+                    <!-- Product Card 1 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="assets/bandlettes50.png" alt="Bandelettes 50 tests">
+                        </div>
+                        <div class="product-info">
+                            <h3>Pack Économique Bandelettes (50)</h3>
+                            <p class="product-description">Lot de 50 bandelettes réactives pour mesurer votre glycémie avec précision. Compatible avec les moniteurs On Call Plus.</p>
+                            <p class="product-price">29,99 €</p>
+                            <div class="product-actions">
+                                <a href="bandlettes-50.html" class="btn btn-primary">Voir détails</a>
+                                <button class="btn btn-secondary add-to-cart" data-product-id="bandlettes-50">Ajouter au panier</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 2 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="assets/moniteurOnCallPlus.jpg" alt="Moniteur On Call Plus">
+                        </div>
+                        <div class="product-info">
+                            <h3>Moniteur de glycémie Premium</h3>
+                            <p class="product-description">Moniteur de glycémie de haute précision avec lecture rapide en 5 secondes. Mémoire de 300 lectures avec date et heure.</p>
+                            <p class="product-price">59,99 €</p>
+                            <div class="product-actions">
+                                <a href="product-detail.html" class="btn btn-primary">Voir détails</a>
+                                <button class="btn btn-secondary add-to-cart" data-product-id="oncall-plus">Ajouter au panier</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 3 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="assets/dispovan-insulin-syring.jpg" alt="Seringues à insuline">
+                        </div>
+                        <div class="product-info">
+                            <h3>Seringues à Insuline (Pack de 10)</h3>
+                            <p class="product-description">Seringues stériles à usage unique pour injection d'insuline. Graduations claires pour un dosage précis.</p>
+                            <p class="product-price">12,50 €</p>
+                            <div class="product-actions">
+                                <a href="#" class="btn btn-primary">Voir détails</a>
+                                <button class="btn btn-secondary add-to-cart" data-product-id="seringues-insuline">Ajouter au panier</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 4 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="assets/ON-CALL-PLUS-BANDELETTES-50.jpg" alt="Kit complet On Call Plus">
+                        </div>
+                        <div class="product-info">
+                            <h3>Kit Complet Moniteur + Bandelettes</h3>
+                            <p class="product-description">Ensemble complet comprenant un moniteur On Call Plus et 50 bandelettes réactives. La solution idéale pour débuter.</p>
+                            <p class="product-price">79,99 €</p>
+                            <div class="product-actions">
+                                <a href="#" class="btn btn-primary">Voir détails</a>
+                                <button class="btn btn-secondary add-to-cart" data-product-id="kit-complet">Ajouter au panier</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="product-categories">
+            <div class="container">
+                <h2>Catégories de Produits</h2>
+                <div class="category-boxes">
+                    <div class="category-box">
+                        <img src="assets/moniteurOnCallPlus.jpg" alt="Moniteurs">
+                        <h3>Moniteurs de Glycémie</h3>
+                        <p>Des appareils précis et faciles à utiliser pour surveiller votre taux de glucose au quotidien.</p>
+                        <a href="#" class="btn btn-primary">Explorer</a>
+                    </div>
+                    <div class="category-box">
+                        <img src="assets/bandlettes50.png" alt="Bandelettes">
+                        <h3>Bandelettes Réactives</h3>
+                        <p>Bandelettes compatibles avec différents moniteurs pour des mesures fiables et précises.</p>
+                        <a href="#" class="btn btn-primary">Explorer</a>
+                    </div>
+                    <div class="category-box">
+                        <img src="assets/dispovan-insulin-syring.jpg" alt="Accessoires">
+                        <h3>Accessoires</h3>
+                        <p>Seringues, lancettes et autres accessoires essentiels pour la gestion quotidienne du diabète.</p>
+                        <a href="#" class="btn btn-primary">Explorer</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Pied de page -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>DiabeCare</h3>
+                    <p>Votre partenaire de confiance dans la gestion du diabète.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Liens rapides</h3>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="products.html">Produits</a></li>
+                        <li><a href="categories.html">Catégories</a></li>
+                        <li><a href="about.html">À propos</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 DiabeCare Pharmacie. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="navigation.js"></script>
+    <script src="product.js"></script>
+</body>
+</html>

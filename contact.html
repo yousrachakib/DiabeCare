@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contactez DiabeCare Pharmacie pour toutes vos questions sur nos produits pour le diabète">
+    <title>DiabeCare Pharmacie - Contactez-nous</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="navigation.css">
+    <link rel="stylesheet" href="product-template.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <style>
+        .contact-container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        
+        .contact-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .contact-header h1 {
+            color: #0066cc;
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+        }
+        
+        .contact-header p {
+            color: #555;
+            font-size: 1.1rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .contact-content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 40px;
+            justify-content: space-between;
+        }
+        
+        .contact-form {
+            flex: 1;
+            min-width: 300px;
+            background-color: #f9f9f9;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .contact-form h2 {
+            color: #0066cc;
+            margin-bottom: 20px;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+            color: #333;
+        }
+        
+        .form-group input,
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-family: inherit;
+            font-size: 1rem;
+        }
+        
+        .form-group textarea {
+            min-height: 150px;
+            resize: vertical;
+        }
+        
+        .form-group select {
+            appearance: none;
+            background-image: url('assets/arrow.png');
+            background-repeat: no-repeat;
+            background-position: right 12px center;
+            background-size: 12px;
+        }
+        
+        .submit-btn {
+            background-color: #0066cc;
+            color: white;
+            border: none;
+            padding: 14px 30px;
+            font-size: 1rem;
+            font-weight: 600;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        .submit-btn:hover {
+            background-color: #0055aa;
+        }
+        
+        .contact-info {
+            flex: 1;
+            min-width: 300px;
+        }
+        
+        .info-card {
+            background-color: white;
+            border-radius: 8px;
+            padding: 25px;
+            margin-bottom: 20px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .info-card h3 {
+            color: #0066cc;
+            margin-bottom: 15px;
+            font-size: 1.3rem;
+        }
+        
+        .info-item {
+            display: flex;
+            margin-bottom: 15px;
+            align-items: flex-start;
+        }
+        
+        .info-item-icon {
+            margin-right: 15px;
+            color: #0066cc;
+            font-size: 1.2rem;
+        }
+        
+        .info-item-text {
+            flex: 1;
+        }
+        
+        .info-item-text p {
+            margin: 0;
+            color: #555;
+        }
+        
+        .info-item-text strong {
+            display: block;
+            color: #333;
+            margin-bottom: 3px;
+        }
+        
+        .business-hours {
+            padding: 0;
+            list-style: none;
+        }
+        
+        .business-hours li {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 8px;
+            color: #555;
+        }
+        
+        .map-container {
+            height: 300px;
+            border-radius: 8px;
+            overflow: hidden;
+            background-color: #f0f0f0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #777;
+            font-size: 1.1rem;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <a href="index.html" class="logo">Diabe<span>Care</span></a>
+    </header>
+
+    <main>
+        <div class="contact-container">
+            <div class="contact-header">
+                <h1>Contactez-nous</h1>
+                <p>Notre équipe de professionnels de la santé est disponible pour répondre à toutes vos questions concernant les produits pour le diabète, les commandes et vos besoins spécifiques.</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-form">
+                    <h2>Envoyez-nous un message</h2>
+                    <form action="#" method="post" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nom complet</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Téléphone</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Sujet</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Sélectionnez un sujet</option>
+                                <option value="question">Question sur un produit</option>
+                                <option value="order">Suivi de commande</option>
+                                <option value="return">Retours et remboursements</option>
+                                <option value="professional">Demande professionnelle</option>
+                                <option value="other">Autre</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">Envoyer le message</button>
+                    </form>
+                </div>
+                
+                <div class="contact-info">
+                    <div class="info-card">
+                        <h3>Nos Coordonnées</h3>
+                        
+                        <div class="info-item">
+                            <div class="info-item-icon">📍</div>
+                            <div class="info-item-text">
+                                <strong>Adresse</strong>
+                                <p>123 Rue de la Santé<br>75000 Paris, France</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <div class="info-item-icon">📞</div>
+                            <div class="info-item-text">
+                                <strong>Téléphone</strong>
+                                <p>+33 (0)1 23 45 67 89</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <div class="info-item-icon">✉️</div>
+                            <div class="info-item-text">
+                                <strong>Email</strong>
+                                <p>contact@diabecare-pharmacie.fr</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h3>Heures d'Ouverture</h3>
+                        <ul class="business-hours">
+                            <li><span>Lundi - Vendredi:</span> <span>9h00 - 19h00</span></li>
+                            <li><span>Samedi:</span> <span>9h00 - 17h00</span></li>
+                            <li><span>Dimanche:</span> <span>Fermé</span></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="map-container">
+                        [Carte interactive ici - La carte s'affichera lorsque la page sera publiée sur le serveur]
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>DiabeCare</h3>
+                    <p>Votre partenaire de confiance dans la gestion du diabète.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Liens rapides</h3>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="products.html">Produits</a></li>
+                        <li><a href="categories.html">Catégories</a></li>
+                        <li><a href="about.html">À propos</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 DiabeCare Pharmacie. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="navigation.js"></script>
+    <script>
+        // Contact form handling
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            // Form validation logic would go here
+            // For now, just show a success message
+            alert('Merci pour votre message. Nous vous répondrons dans les plus brefs délais.');
+            this.reset();
+        });
+    </script>
+</body>
+</html>

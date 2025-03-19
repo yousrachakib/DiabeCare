@@ -1,0 +1,348 @@
+{
+  "total_files": 26,
+  "folder_structure": {
+    "root": [
+      {
+        "name": "index.html",
+        "ext": "html",
+        "size": 10665
+      },
+      {
+        "name": "styles.css",
+        "ext": "css",
+        "size": 6712
+      },
+      {
+        "name": "contact.html",
+        "ext": "html",
+        "size": 10937
+      },
+      {
+        "name": "products.html",
+        "ext": "html",
+        "size": 13332
+      },
+      {
+        "name": "script.js",
+        "ext": "js",
+        "size": 5107
+      },
+      {
+        "name": "navigation.js",
+        "ext": "js",
+        "size": 6662
+      },
+      {
+        "name": "product-template.css",
+        "ext": "css",
+        "size": 7769
+      },
+      {
+        "name": "navigation.css",
+        "ext": "css",
+        "size": 4240
+      },
+      {
+        "name": "bandlettes-50.html",
+        "ext": "html",
+        "size": 13576
+      },
+      {
+        "name": "product-page.css",
+        "ext": "css",
+        "size": 6228
+      },
+      {
+        "name": "product-detail.html",
+        "ext": "html",
+        "size": 11301
+      },
+      {
+        "name": "product.js",
+        "ext": "js",
+        "size": 937
+      },
+      {
+        "name": "mediaqueries.css",
+        "ext": "css",
+        "size": 618
+      },
+      {
+        "name": "product-page.js",
+        "ext": "js",
+        "size": 1425
+      },
+      {
+        "name": "analyze_website.py",
+        "ext": "py",
+        "size": 8346
+      }
+    ],
+    "On call extra": [],
+    "On call plus": [],
+    "assets": [
+      {
+        "name": "bandlettes50.png",
+        "ext": "png",
+        "size": 273667
+      },
+      {
+        "name": "arrow.png",
+        "ext": "png",
+        "size": 15528
+      },
+      {
+        "name": "bandelettes50view1.webp",
+        "ext": "webp",
+        "size": 10210
+      },
+      {
+        "name": "5d25b85b334f62b41074f948fd821396.jpeg",
+        "ext": "jpeg",
+        "size": 55873
+      },
+      {
+        "name": "dispovan-insulin-syring.jpg",
+        "ext": "jpg",
+        "size": 19841
+      },
+      {
+        "name": "moniteurOnCallPlus.jpg",
+        "ext": "jpg",
+        "size": 38501
+      },
+      {
+        "name": "ON-CALL-PLUS-BANDELETTES-50.jpg",
+        "ext": "jpg",
+        "size": 45613
+      },
+      {
+        "name": "93c5b8c3988f2db784e367978eed5b48.jpeg",
+        "ext": "jpeg",
+        "size": 69079
+      },
+      {
+        "name": "bbcbef7a66e7834fc6411d54279f8b8b.jpeg",
+        "ext": "jpeg",
+        "size": 50828
+      },
+      {
+        "name": "Bandlettes.webp",
+        "ext": "webp",
+        "size": 644424
+      },
+      {
+        "name": "hcg.jpg",
+        "ext": "jpg",
+        "size": 950273
+      }
+    ]
+  },
+  "file_types": {
+    "html": 5,
+    "css": 5,
+    "js": 4,
+    "py": 1,
+    "png": 2,
+    "webp": 2,
+    "jpeg": 3,
+    "jpg": 4
+  },
+  "file_sizes": {
+    "root/index.html": 10665,
+    "root/styles.css": 6712,
+    "root/contact.html": 10937,
+    "root/products.html": 13332,
+    "root/script.js": 5107,
+    "root/navigation.js": 6662,
+    "root/product-template.css": 7769,
+    "root/navigation.css": 4240,
+    "root/bandlettes-50.html": 13576,
+    "root/product-page.css": 6228,
+    "root/product-detail.html": 11301,
+    "root/product.js": 937,
+    "root/mediaqueries.css": 618,
+    "root/product-page.js": 1425,
+    "root/analyze_website.py": 8346,
+    "assets/bandlettes50.png": 273667,
+    "assets/arrow.png": 15528,
+    "assets/bandelettes50view1.webp": 10210,
+    "assets/5d25b85b334f62b41074f948fd821396.jpeg": 55873,
+    "assets/dispovan-insulin-syring.jpg": 19841,
+    "assets/moniteurOnCallPlus.jpg": 38501,
+    "assets/ON-CALL-PLUS-BANDELETTES-50.jpg": 45613,
+    "assets/93c5b8c3988f2db784e367978eed5b48.jpeg": 69079,
+    "assets/bbcbef7a66e7834fc6411d54279f8b8b.jpeg": 50828,
+    "assets/Bandlettes.webp": 644424,
+    "assets/hcg.jpg": 950273
+  },
+  "frameworks_detected": [
+    "angular"
+  ],
+  "html_pages": [
+    {
+      "path": "root/index.html",
+      "size": 10665,
+      "metadata": {
+        "title": "DiabeCare Pharmacie - Produits Sp\u00e9cialis\u00e9s pour le Diab\u00e8te",
+        "meta_tags": 2,
+        "scripts": 3,
+        "stylesheets": 4,
+        "forms": 2
+      }
+    },
+    {
+      "path": "root/contact.html",
+      "size": 10937,
+      "metadata": {
+        "title": "DiabeCare Pharmacie - Contactez-nous",
+        "meta_tags": 3,
+        "scripts": 3,
+        "stylesheets": 4,
+        "forms": 1
+      }
+    },
+    {
+      "path": "root/products.html",
+      "size": 13332,
+      "metadata": {
+        "title": "DiabeCare Pharmacie - Tous les Produits",
+        "meta_tags": 3,
+        "scripts": 3,
+        "stylesheets": 4,
+        "forms": 0
+      }
+    },
+    {
+      "path": "root/bandlettes-50.html",
+      "size": 13576,
+      "metadata": {
+        "title": "DiabeCare - Pack \u00c9conomique Bandelettes (50)",
+        "meta_tags": 2,
+        "scripts": 2,
+        "stylesheets": 4,
+        "forms": 1
+      }
+    },
+    {
+      "path": "root/product-detail.html",
+      "size": 11301,
+      "metadata": {
+        "title": "DiabeCare - Moniteur de glyc\u00e9mie Premium",
+        "meta_tags": 2,
+        "scripts": 2,
+        "stylesheets": 4,
+        "forms": 1
+      }
+    }
+  ],
+  "js_files": [
+    {
+      "path": "root/script.js",
+      "size": 5107,
+      "imports": []
+    },
+    {
+      "path": "root/navigation.js",
+      "size": 6662,
+      "imports": []
+    },
+    {
+      "path": "root/product.js",
+      "size": 937,
+      "imports": []
+    },
+    {
+      "path": "root/product-page.js",
+      "size": 1425,
+      "imports": []
+    }
+  ],
+  "css_files": [
+    {
+      "path": "root/styles.css",
+      "size": 6712,
+      "imports": [
+        "/api/placeholder/1200/400"
+      ]
+    },
+    {
+      "path": "root/product-template.css",
+      "size": 7769,
+      "imports": []
+    },
+    {
+      "path": "root/navigation.css",
+      "size": 4240,
+      "imports": []
+    },
+    {
+      "path": "root/product-page.css",
+      "size": 6228,
+      "imports": []
+    },
+    {
+      "path": "root/mediaqueries.css",
+      "size": 618,
+      "imports": []
+    }
+  ],
+  "asset_files": [
+    {
+      "path": "assets/bandlettes50.png",
+      "size": 273667,
+      "type": "png"
+    },
+    {
+      "path": "assets/arrow.png",
+      "size": 15528,
+      "type": "png"
+    },
+    {
+      "path": "assets/bandelettes50view1.webp",
+      "size": 10210,
+      "type": "webp"
+    },
+    {
+      "path": "assets/5d25b85b334f62b41074f948fd821396.jpeg",
+      "size": 55873,
+      "type": "jpeg"
+    },
+    {
+      "path": "assets/dispovan-insulin-syring.jpg",
+      "size": 19841,
+      "type": "jpg"
+    },
+    {
+      "path": "assets/moniteurOnCallPlus.jpg",
+      "size": 38501,
+      "type": "jpg"
+    },
+    {
+      "path": "assets/ON-CALL-PLUS-BANDELETTES-50.jpg",
+      "size": 45613,
+      "type": "jpg"
+    },
+    {
+      "path": "assets/93c5b8c3988f2db784e367978eed5b48.jpeg",
+      "size": 69079,
+      "type": "jpeg"
+    },
+    {
+      "path": "assets/bbcbef7a66e7834fc6411d54279f8b8b.jpeg",
+      "size": 50828,
+      "type": "jpeg"
+    },
+    {
+      "path": "assets/Bandlettes.webp",
+      "size": 644424,
+      "type": "webp"
+    },
+    {
+      "path": "assets/hcg.jpg",
+      "size": 950273,
+      "type": "jpg"
+    }
+  ],
+  "dependencies": "set()"
+}

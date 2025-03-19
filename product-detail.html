@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DiabeCare - Moniteur de glycémie Premium</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="stylesheet" href="product-page.css">
+    <link rel="stylesheet" href="navigation.css">
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <a href="index.html" class="logo">Diabe<span>Care</span></a>
+            
+            <nav>
+                <ul>
+                    <li><a href="index.html#Accueil">Accueil</a></li>
+                    <li><a href="index.html#Produits">Produits</a></li>
+                    <li><a href="index.html#Services">Services</a></li>
+                    <li><a href="index.html#À propos">À propos</a></li>
+                    <li><a href="index.html#Contact">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div class="search-cart">
+                <form class="search-form">
+                    <input type="text" placeholder="Rechercher des produits...">
+                   <button type="submit">🔍</button>
+                </form>
+                
+                <div class="cart-icon">
+                    🛒
+                    <span class="cart-count">0</span>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Fil d'Ariane -->
+    <div class="breadcrumb">
+        <div class="container">
+            <a href="index.html">Accueil</a> > <a href="index.html#Produits">Produits</a> > <span>Moniteur de glycémie Premium</span>
+        </div>
+    </div>
+    
+    <!-- Contenu de la page produit -->
+    <main class="container">
+        <div class="product-layout">
+            <!-- Galerie d'images -->
+            <div class="product-gallery">
+                <div class="main-image">
+                    <img src="assets/bbcbef7a66e7834fc6411d54279f8b8b.jpeg" alt="Moniteur de glycémie Premium">
+                </div>
+                <div class="thumbnail-images">
+                    <img src="assets/glucose-monitor-premium.jpg" alt="Vue principale">
+                    <img src="assets/glucose-monitor-premium.jpg" alt="Vue latérale">
+                    <img src="assets/glucose-monitor-premium.jpg" alt="Vue emballage">
+                </div>
+            </div>
+            
+            <!-- Informations produit -->
+            <div class="product-info">
+                <h1 class="product-title">Moniteur de glycémie Premium</h1>
+                
+                <div class="product-meta">
+                    <div class="product-sku">SKU: GLU-MON-001</div>
+                    <div class="product-stock">En stock</div>
+                </div>
+                
+                <div class="product-price">
+                    <span class="price">750 DH</span>
+                    <span class="old-price">850 DH</span>
+                </div>
+                
+                <div class="product-description">
+                    <p>Moniteur de glycémie de haute précision avec 100 bandelettes incluses. Idéal pour une surveillance quotidienne fiable et précise.</p>
+                </div>
+                
+                <div class="product-features">
+                    <h3>Caractéristiques principales:</h3>
+                    <ul>
+                        <li>Temps de mesure rapide: 5 secondes</li>
+                        <li>Mémoire pour 500 mesures</li>
+                        <li>Inclut 100 bandelettes</li>
+                        <li>Batterie longue durée</li>
+                        <li>Écran LCD facile à lire</li>
+                    </ul>
+                </div>
+                
+                <div class="product-actions">
+                    <div class="quantity">
+                        <label>Quantité:</label>
+                        <div class="qty-control">
+                            <button type="button" class="qty-minus">-</button>
+                            <input type="number" class="qty-input" value="1" min="1">
+                            <button type="button" class="qty-plus">+</button>
+                        </div>
+                    </div>
+                    
+                    <button class="add-to-cart">Ajouter au panier</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Onglets d'informations -->
+        <div class="product-tabs">
+            <div class="tabs-navigation">
+                <button class="tab-button active" data-panel="tab-description">Description</button>
+                <button class="tab-button" data-panel="tab-specs">Spécifications</button>
+                <button class="tab-button" data-panel="tab-reviews">Avis clients</button>
+            </div>
+            
+            <div id="tab-description" class="tab-panel active">
+                <p>Le Moniteur de glycémie Premium est un appareil médical de haute qualité conçu pour les personnes diabétiques qui ont besoin d'un suivi précis et régulier de leur taux de glucose sanguin.</p>
+                <p>Équipé d'une technologie avancée, cet appareil fournit des résultats précis en seulement 5 secondes, avec un besoin minimal de sang. Son grand écran LCD rétroéclairé permet une lecture facile, même dans des conditions de faible luminosité.</p>
+                <p>Le kit comprend l'appareil de mesure, 100 bandelettes de test, un dispositif de prélèvement sanguin, des lancettes stériles, une pile, et un étui de transport pratique.</p>
+            </div>
+            
+            <div id="tab-specs" class="tab-panel">
+                <table class="specs-table">
+                    <tr>
+                        <td>Temps de mesure</td>
+                        <td>5 secondes</td>
+                    </tr>
+                    <tr>
+                        <td>Capacité de mémoire</td>
+                        <td>500 mesures avec date et heure</td>
+                    </tr>
+                    <tr>
+                        <td>Taille de l'écran</td>
+                        <td>LCD 2.4 pouces</td>
+                    </tr>
+                    <tr>
+                        <td>Type de batterie</td>
+                        <td>CR2032 (incluse)</td>
+                    </tr>
+                    <tr>
+                        <td>Durée de vie de la batterie</td>
+                        <td>Environ 1000 mesures</td>
+                    </tr>
+                    <tr>
+                        <td>Plage de mesure</td>
+                        <td>20-600 mg/dL</td>
+                    </tr>
+                    <tr>
+                        <td>Calibration</td>
+                        <td>Plasma équivalent</td>
+                    </tr>
+                    <tr>
+                        <td>Dimensions</td>
+                        <td>96 x 52 x 22 mm</td>
+                    </tr>
+                    <tr>
+                        <td>Poids</td>
+                        <td>85g (avec batterie)</td>
+                    </tr>
+                </table>
+            </div>
+            
+            <div id="tab-reviews" class="tab-panel">
+                <div class="review">
+                    <div class="review-header">
+                        <div class="reviewer-name">Mohammed A.</div>
+                        <div class="review-date">15 février 2025</div>
+                        <div class="rating">★★★★★</div>
+                    </div>
+                    <p>Très satisfait de cet appareil. Précis, facile à utiliser et les bandelettes incluses sont un vrai plus !</p>
+                </div>
+                
+                <div class="review">
+                    <div class="review-header">
+                        <div class="reviewer-name">Fatima L.</div>
+                        <div class="review-date">3 février 2025</div>
+                        <div class="rating">★★★★☆</div>
+                    </div>
+                    <p>Bon rapport qualité-prix. L'écran est bien lisible et la mesure est rapide. Je retire une étoile car l'étui pourrait être de meilleure qualité.</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Produits connexes -->
+        <div class="related-products">
+            <h2>Produits associés</h2>
+            <div class="product-grid">
+                <!-- Copier ici quelques produits de votre page d'accueil -->
+            </div>
+        </div>
+    </main>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>DiabeCare</h3>
+                    <p>Votre partenaire de confiance dans la gestion du diabète.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Liens rapides</h3>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="index.html#Produits">Produits</a></li>
+                        <li><a href="index.html#Services">Services</a></li>
+                        <li><a href="index.html#À propos">À propos</a></li>
+                        <li><a href="index.html#Contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 DiabeCare Pharmacie. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+    <script>
+        // For image gallery
+        document.querySelectorAll('.thumbnail-images img').forEach(img => {
+            img.addEventListener('click', function() {
+                const mainImage = document.querySelector('.main-image img');
+                mainImage.src = this.src;
+            });
+        });
+
+        // For tabs
+        const tabButtons = document.querySelectorAll('.tab-button');
+        const tabPanels = document.querySelectorAll('.tab-panel');
+
+        tabButtons.forEach(button => {
+            button.addEventListener('click', function() {
+                // Remove active class from all buttons and panels
+                tabButtons.forEach(btn => btn.classList.remove('active'));
+                tabPanels.forEach(panel => panel.classList.remove('active'));
+                
+                // Add active class to clicked button and corresponding panel
+                this.classList.add('active');
+                const panelId = this.getAttribute('data-panel');
+                document.getElementById(panelId).classList.add('active');
+            });
+        });
+
+        // For quantity selector
+        const minusBtn = document.querySelector('.qty-minus');
+        const plusBtn = document.querySelector('.qty-plus');
+        const qtyInput = document.querySelector('.qty-input');
+
+        minusBtn.addEventListener('click', function() {
+            let qty = parseInt(qtyInput.value);
+            if (qty > 1) qtyInput.value = qty - 1;
+        });
+
+        plusBtn.addEventListener('click', function() {
+            let qty = parseInt(qtyInput.value);
+            qtyInput.value = qty + 1;
+        });
+    </script>
+</body>
+</html>
