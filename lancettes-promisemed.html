@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DiabeCare - Lancettes Promisemed</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="stylesheet" href="product-page.css">
+    <link rel="stylesheet" href="navigation.css">
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <a href="index.html" class="logo">Diabe<span>Care</span></a>
+            
+            <nav>
+                <ul>
+                    <li><a href="index.html#Accueil">Accueil</a></li>
+                    <li><a href="index.html#Produits">Produits</a></li>
+                    <li><a href="index.html#Services">Services</a></li>
+                    <li><a href="index.html#À propos">À propos</a></li>
+                    <li><a href="index.html#Contact">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div class="search-cart">
+                <form class="search-form">
+                    <input type="text" placeholder="Rechercher des produits...">
+                   <button type="submit">🔍</button>
+                </form>
+                
+                <div class="cart-icon">
+                    🛒
+                    <span class="cart-count">0</span>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Fil d'Ariane -->
+    <div class="breadcrumb">
+        <div class="container">
+            <a href="index.html">Accueil</a> > <a href="index.html#Produits">Produits</a> > <span>Lancettes Promisemed</span>
+        </div>
+    </div>
+    
+    <!-- Contenu de la page produit -->
+    <main class="container">
+        <div class="product-layout">
+            <!-- Galerie d'images -->
+            <div class="product-gallery">
+                <div class="main-image">
+                    <img src="assets/Promisemed_blood_lancet_28G.jpeg" alt="Lancettes Promisemed">
+                </div>
+                <div class="thumbnail-images">
+                    <img src="assets/Promisemed_blood_lancet_28G.jpeg" alt="Vue principale">
+                    <img src="assets/lancettes-promisemed-packaging.jpg" alt="Vue emballage">
+                    <img src="assets/lancettes-promisemed-detail.jpg" alt="Vue détaillée">
+                </div>
+            </div>
+            
+            <!-- Informations produit -->
+            <div class="product-info">
+                <h1 class="product-title">Lancettes Promisemed</h1>
+                
+                <div class="product-meta">
+                    <div class="product-sku">SKU: LAN-PRO-001</div>
+                    <div class="product-stock">En stock</div>
+                </div>
+                
+                <div class="product-price">
+                    <span class="price">120 DH</span>
+                    <span class="old-price">150 DH</span>
+                </div>
+                
+                <div class="product-description">
+                    <p>Lancettes stériles Promisemed de Roche pour un prélèvement sanguin sans douleur. Compatibles avec l'Autopiqueur Accu-Chek. Boîte de 100 pièces.</p>
+                </div>
+                
+                <div class="product-features">
+                    <h3>Caractéristiques principales:</h3>
+                    <ul>
+                        <li>Prélèvement sanguin sans douleur</li>
+                        <li>Coupe précise</li>
+                        <li>Revêtement en silicone</li>
+                        <li>Compatibles avec Autopiqueur Accu-Chek</li>
+                        <li>Boîte de 100 lancettes stériles</li>
+                    </ul>
+                </div>
+                
+                <div class="product-actions">
+                    <div class="quantity">
+                        <label>Quantité:</label>
+                        <div class="qty-control">
+                            <button type="button" class="qty-minus">-</button>
+                            <input type="number" class="qty-input" value="1" min="1">
+                            <button type="button" class="qty-plus">+</button>
+                        </div>
+                    </div>
+                    
+                    <button class="add-to-cart">Ajouter au panier</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Onglets d'informations -->
+        <div class="product-tabs">
+            <div class="tabs-navigation">
+                <button class="tab-button active" data-panel="tab-description">Description</button>
+                <button class="tab-button" data-panel="tab-specs">Spécifications</button>
+                <button class="tab-button" data-panel="tab-reviews">Avis clients</button>
+            </div>
+            
+            <div id="tab-description" class="tab-panel active">
+                <p>Les lancettes Promisemed de Roche sont conçues pour assurer un prélèvement sanguin sans douleur lors de la mesure de la glycémie. Grâce à leur coupe précise et à leur revêtement en silicone, elles offrent un confort optimal aux utilisateurs.</p>
+                <p>Ces aiguilles stériles sont spécialement conçues pour l'Autopiqueur Accu-Chek. Leur utilisation est simple : retirez le capuchon de l'autopiqueur, insérez la lancette, puis retirez le capuchon protecteur de l'aiguille. Après le prélèvement sanguin, la lancette utilisée peut être retirée facilement à l'aide de l'éjecteur sans risque de contact.</p>
+                <p>Particulièrement recommandées pour les patients diabétiques qui contrôlent leur taux de glucose à haute fréquence, ces lancettes facilitent considérablement le prélèvement sanguin quotidien. Chaque boîte contient 100 lancettes stériles à usage unique.</p>
+            </div>
+            
+            <div id="tab-specs" class="tab-panel">
+                <table class="specs-table">
+                    <tr>
+                        <td>Marque</td>
+                        <td>Promisemed (Roche)</td>
+                    </tr>
+                    <tr>
+                        <td>Compatibilité</td>
+                        <td>Autopiqueur Accu-Chek</td>
+                    </tr>
+                    <tr>
+                        <td>Quantité par boîte</td>
+                        <td>100 pièces</td>
+                    </tr>
+                    <tr>
+                        <td>Type</td>
+                        <td>Usage unique</td>
+                    </tr>
+                    <tr>
+                        <td>Stérilisation</td>
+                        <td>Gamma irradiation</td>
+                    </tr>
+                    <tr>
+                        <td>Revêtement</td>
+                        <td>Silicone</td>
+                    </tr>
+                    <tr>
+                        <td>Calibre</td>
+                        <td>28G</td>
+                    </tr>
+                    <tr>
+                        <td>Date d'expiration</td>
+                        <td>5 ans à partir de la date de fabrication</td>
+                    </tr>
+                    <tr>
+                        <td>Conservation</td>
+                        <td>Température ambiante, endroit sec</td>
+                    </tr>
+                </table>
+            </div>
+            
+            <div id="tab-reviews" class="tab-panel">
+                <div class="review">
+                    <div class="review-header">
+                        <div class="reviewer-name">Ahmed K.</div>
+                        <div class="review-date">10 mars 2025</div>
+                        <div class="rating">★★★★★</div>
+                    </div>
+                    <p>Ces lancettes sont vraiment indolores comme promis. Je mesure ma glycémie 4 fois par jour et la différence avec mes anciennes lancettes est notable. Très satisfait !</p>
+                </div>
+                
+                <div class="review">
+                    <div class="review-header">
+                        <div class="reviewer-name">Samira B.</div>
+                        <div class="review-date">25 février 2025</div>
+                        <div class="rating">★★★★☆</div>
+                    </div>
+                    <p>Bon produit, prélèvement facile et peu douloureux. Parfaitement compatibles avec mon Accu-Chek. Je retire une étoile car l'emballage individuel est parfois difficile à ouvrir.</p>
+                </div>
+                
+                <div class="review">
+                    <div class="review-header">
+                        <div class="reviewer-name">Karim R.</div>
+                        <div class="review-date">3 février 2025</div>
+                        <div class="rating">★★★★★</div>
+                    </div>
+                    <p>Excellente qualité et prix raisonnable. Je les recommande à tous les diabétiques qui utilisent un Accu-Chek.</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Produits connexes -->
+        <div class="related-products">
+            <h2>Produits associés</h2>
+            <div class="product-grid">
+                <!-- Produits associés à insérer ici -->
+            </div>
+        </div>
+    </main>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>DiabeCare</h3>
+                    <p>Votre partenaire de confiance dans la gestion du diabète.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Liens rapides</h3>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="index.html#Produits">Produits</a></li>
+                        <li><a href="index.html#Services">Services</a></li>
+                        <li><a href="index.html#À propos">À propos</a></li>
+                        <li><a href="index.html#Contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 DiabeCare Pharmacie. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+    <script>
+        // For image gallery
+        document.querySelectorAll('.thumbnail-images img').forEach(img => {
+            img.addEventListener('click', function() {
+                const mainImage = document.querySelector('.main-image img');
+                mainImage.src = this.src;
+            });
+        });
+
+        // For tabs
+        const tabButtons = document.querySelectorAll('.tab-button');
+        const tabPanels = document.querySelectorAll('.tab-panel');
+
+        tabButtons.forEach(button => {
+            button.addEventListener('click', function() {
+                // Remove active class from all buttons and panels
+                tabButtons.forEach(btn => btn.classList.remove('active'));
+                tabPanels.forEach(panel => panel.classList.remove('active'));
+                
+                // Add active class to clicked button and corresponding panel
+                this.classList.add('active');
+                const panelId = this.getAttribute('data-panel');
+                document.getElementById(panelId).classList.add('active');
+            });
+        });
+
+        // For quantity selector
+        const minusBtn = document.querySelector('.qty-minus');
+        const plusBtn = document.querySelector('.qty-plus');
+        const qtyInput = document.querySelector('.qty-input');
+
+        minusBtn.addEventListener('click', function() {
+            let qty = parseInt(qtyInput.value);
+            if (qty > 1) qtyInput.value = qty - 1;
+        });
+
+        plusBtn.addEventListener('click', function() {
+            let qty = parseInt(qtyInput.value);
+            qtyInput.value = qty + 1;
+        });
+    </script>
+</body>
+</html>

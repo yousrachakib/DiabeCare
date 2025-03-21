@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DiabeCare - Acare Lecteur de glycémie</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="stylesheet" href="product-page.css">
+    <link rel="stylesheet" href="navigation.css">
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <a href="index.html" class="logo">Diabe<span>Care</span></a>
+            
+            <nav>
+                <ul>
+                    <li><a href="index.html#Accueil">Accueil</a></li>
+                    <li><a href="index.html#Produits">Produits</a></li>
+                    <li><a href="index.html#Services">Services</a></li>
+                    <li><a href="index.html#À propos">À propos</a></li>
+                    <li><a href="index.html#Contact">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div class="search-cart">
+                <form class="search-form">
+                    <input type="text" placeholder="Rechercher des produits...">
+                   <button type="submit">🔍</button>
+                </form>
+                
+                <div class="cart-icon">
+                    🛒
+                    <span class="cart-count">0</span>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Fil d'Ariane -->
+    <div class="breadcrumb">
+        <div class="container">
+            <a href="index.html">Accueil</a> > <a href="index.html#Produits">Produits</a> > <span>Acare Lecteur de glycémie</span>
+        </div>
+    </div>
+    
+    <!-- Contenu de la page produit -->
+    <main class="container">
+        <div class="product-layout">
+            <!-- Galerie d'images -->
+            <div class="product-gallery">
+                <div class="main-image">
+                    <img src="assets/Acare-lecteur-de-glycemie.jpg" alt="Acare Lecteur de glycémie">
+                </div>
+                <div class="thumbnail-images">
+                    <img src="assets/acare-lecteur-view1.webp" alt="Vue principale">
+                    <img src="assets/acare-lecteur-view2.webp" alt="Vue détaillée">
+                    <img src="assets/acare-lecteur-pack.webp" alt="Vue emballage">
+                </div>
+            </div>
+            
+            <!-- Informations produit -->
+            <div class="product-info">
+                <h1 class="product-title">Acare Lecteur de glycémie</h1>
+                
+                <div class="product-meta">
+                    <div class="product-sku">SKU: LG-ACARE-001</div>
+                    <div class="product-stock">En stock</div>
+                </div>
+                
+                <div class="product-price">
+                    <span class="price">590 DH</span>
+                    <span class="old-price">650 DH</span>
+                </div>
+                
+                <div class="product-description">
+                    <p>Le lecteur de glycémie Acare est un appareil de mesure précis et facile à utiliser pour surveiller quotidiennement votre taux de glucose sanguin. Compact et fiable, il accompagne efficacement les personnes diabétiques dans leur suivi médical.</p>
+                </div>
+                
+                <div class="product-features">
+                    <h3>Caractéristiques principales:</h3>
+                    <ul>
+                        <li>Résultats rapides en 5 secondes</li>
+                        <li>Grand écran LCD facile à lire</li>
+                        <li>Mémoire de 500 résultats avec date et heure</li>
+                        <li>Échantillon sanguin minimal (0.5 μL)</li>
+                        <li>10 bandelettes de test incluses</li>
+                        <li>Batterie longue durée (plus de 1000 tests)</li>
+                    </ul>
+                </div>
+                
+                <div class="product-actions">
+                    <div class="quantity">
+                        <label>Quantité:</label>
+                        <div class="qty-control">
+                            <button type="button" class="qty-minus">-</button>
+                            <input type="number" class="qty-input" value="1" min="1">
+                            <button type="button" class="qty-plus">+</button>
+                        </div>
+                    </div>
+                    
+                    <button class="add-to-cart-btn">Ajouter au panier</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Onglets d'informations -->
+        <div class="product-tabs">
+            <div class="tabs-navigation">
+                <button class="tab-button active" data-panel="tab-description">Description</button>
+                <button class="tab-button" data-panel="tab-specs">Spécifications</button>
+                <button class="tab-button" data-panel="tab-reviews">Avis clients</button>
+            </div>
+            
+            <div id="tab-description" class="tab-panel active">
+                <p>Le lecteur de glycémie Acare est conçu pour offrir une expérience simple et fiable aux personnes diabétiques qui doivent surveiller régulièrement leur taux de glucose sanguin.</p>
+                <p>Doté d'une technologie avancée, ce glucomètre fournit des résultats précis en seulement 5 secondes et ne nécessite qu'une infime quantité de sang (0.5 μL), minimisant ainsi l'inconfort lors des tests quotidiens.</p>
+                <p>Son grand écran LCD rétroéclairé permet une lecture facile des résultats, même dans des conditions de faible luminosité. L'appareil est équipé d'une mémoire capable de stocker jusqu'à 500 mesures avec date et heure, permettant un suivi détaillé de l'évolution de votre glycémie.</p>
+                <p>Le kit comprend le lecteur de glycémie, 10 bandelettes de test, un stylo autopiqueur, 10 lancettes stériles, une pile, un étui de transport et un manuel d'utilisation complet en français.</p>
+            </div>
+            
+            <div id="tab-specs" class="tab-panel">
+                <table class="specs-table">
+                    <tr>
+                        <td>Méthode de mesure</td>
+                        <td>Électrochimique</td>
+                    </tr>
+                    <tr>
+                        <td>Temps de mesure</td>
+                        <td>5 secondes</td>
+                    </tr>
+                    <tr>
+                        <td>Volume d'échantillon</td>
+                        <td>0.5 μL</td>
+                    </tr>
+                    <tr>
+                        <td>Plage de mesure</td>
+                        <td>20-600 mg/dL (1.1-33.3 mmol/L)</td>
+                    </tr>
+                    <tr>
+                        <td>Mémoire</td>
+                        <td>500 résultats avec date et heure</td>
+                    </tr>
+                    <tr>
+                        <td>Type de pile</td>
+                        <td>CR2032 (incluse)</td>
+                    </tr>
+                    <tr>
+                        <td>Durée de vie de la pile</td>
+                        <td>Environ 1000 tests</td>
+                    </tr>
+                    <tr>
+                        <td>Conditions d'utilisation</td>
+                        <td>10-40°C, humidité relative < 85%</td>
+                    </tr>
+                    <tr>
+                        <td>Dimensions</td>
+                        <td>96 x 61 x 26 mm</td>
+                    </tr>
+                    <tr>
+                        <td>Poids</td>
+                        <td>85g avec pile</td>
+                    </tr>
+                    <tr>
+                        <td>Certification</td>
+                        <td>CE, ISO 15197:2013</td>
+                    </tr>
+                    <tr>
+                        <td>Garantie</td>
+                        <td>2 ans</td>
+                    </tr>
+                </table>
+            </div>
+            
+            <div id="tab-reviews" class="tab-panel">
+                <div class="review">
+                    <div class="review-header">
+                        <div class="reviewer-name">Mohammed A.</div>
+                        <div class="review-date">12 mars 2025</div>
+                        <div class="rating">★★★★★</div>
+                    </div>
+                    <p>Excellent appareil, très simple à utiliser et les résultats sont cohérents avec ceux obtenus au laboratoire. Le kit complet est vraiment pratique pour débuter.</p>
+                </div>
+                
+                <div class="review">
+                    <div class="review-header">
+                        <div class="reviewer-name">Fatima L.</div>
+                        <div class="review-date">27 février 2025</div>
+                        <div class="rating">★★★★☆</div>
+                    </div>
+                    <p>Bon rapport qualité-prix. L'appareil est facile à utiliser et l'écran est bien lisible. Je retire une étoile car j'aurais aimé avoir plus de bandelettes incluses.</p>
+                </div>
+                
+                <div class="review">
+                    <div class="review-header">
+                        <div class="reviewer-name">Karim B.</div>
+                        <div class="review-date">3 février 2025</div>
+                        <div class="rating">★★★★★</div>
+                    </div>
+                    <p>Parfait pour mon père diabétique qui avait besoin d'un appareil simple. Grand écran facile à lire et résultats rapides. Le service client de DiabeCare a également été très réactif à mes questions.</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Produits connexes -->
+        <div class="related-products">
+            <h2>Produits associés</h2>
+            <div class="product-grid">
+                <!-- Produit associé 1 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="assets/ON-CALL-PLUS-BANDELETTES-50.jpg" alt="Pack Économique Bandelettes (50)">
+                    </div>
+                    <div class="product-content">
+                        <h3>Pack Économique Bandelettes (50)</h3>
+                        <p>Pack économique de 50 bandelettes compatibles avec votre lecteur Acare.</p>
+                        <div class="product-info">
+                            <span class="price">280 DH</span>
+                            <button class="add-to-cart">Ajouter au panier</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Produit associé 2 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="assets/lancettes-steriles-pack.jpg" alt="Lancettes stériles (100)">
+                    </div>
+                    <div class="product-content">
+                        <h3>Lancettes stériles (pack de 100)</h3>
+                        <p>Lancettes stériles de haute qualité pour des prélèvements sanguins confortables.</p>
+                        <div class="product-info">
+                            <span class="price">150 DH</span>
+                            <button class="add-to-cart">Ajouter au panier</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>DiabeCare</h3>
+                    <p>Votre partenaire de confiance dans la gestion du diabète.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Liens rapides</h3>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="index.html#Produits">Produits</a></li>
+                        <li><a href="index.html#Services">Services</a></li>
+                        <li><a href="index.html#À propos">À propos</a></li>
+                        <li><a href="index.html#Contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 DiabeCare Pharmacie. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+    <script>
+        // For image gallery
+        document.querySelectorAll('.thumbnail-images img').forEach(img => {
+            img.addEventListener('click', function() {
+                const mainImage = document.querySelector('.main-image img');
+                mainImage.src = this.src;
+            });
+        });
+
+        // For tabs
+        const tabButtons = document.querySelectorAll('.tab-button');
+        const tabPanels = document.querySelectorAll('.tab-panel');
+
+        tabButtons.forEach(button => {
+            button.addEventListener('click', function() {
+                // Remove active class from all buttons and panels
+                tabButtons.forEach(btn => btn.classList.remove('active'));
+                tabPanels.forEach(panel => panel.classList.remove('active'));
+                
+                // Add active class to clicked button and corresponding panel
+                this.classList.add('active');
+                const panelId = this.getAttribute('data-panel');
+                document.getElementById(panelId).classList.add('active');
+            });
+        });
+
+        // For quantity selector
+        const minusBtn = document.querySelector('.qty-minus');
+        const plusBtn = document.querySelector('.qty-plus');
+        const qtyInput = document.querySelector('.qty-input');
+
+        minusBtn.addEventListener('click', function() {
+            let qty = parseInt(qtyInput.value);
+            if (qty > 1) qtyInput.value = qty - 1;
+        });
+
+        plusBtn.addEventListener('click', function() {
+            let qty = parseInt(qtyInput.value);
+            qtyInput.value = qty + 1;
+        });
+    </script>
+</body>
+</html>

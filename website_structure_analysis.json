@@ -1,16 +1,16 @@
 {
-  "total_files": 26,
+  "total_files": 86,
   "folder_structure": {
     "root": [
       {
         "name": "index.html",
         "ext": "html",
-        "size": 10665
+        "size": 10941
       },
       {
         "name": "styles.css",
         "ext": "css",
-        "size": 6712
+        "size": 9701
       },
       {
         "name": "contact.html",
@@ -25,7 +25,7 @@
       {
         "name": "script.js",
         "ext": "js",
-        "size": 5107
+        "size": 18725
       },
       {
         "name": "navigation.js",
@@ -92,6 +92,11 @@
         "size": 15528
       },
       {
+        "name": "whatsapp-icon.png",
+        "ext": "png",
+        "size": 119824
+      },
+      {
         "name": "bandelettes50view1.webp",
         "ext": "webp",
         "size": 10210
@@ -110,6 +115,11 @@
         "name": "moniteurOnCallPlus.jpg",
         "ext": "jpg",
         "size": 38501
+      },
+      {
+        "name": "Promisemed_blood_lancet_28G.jpeg",
+        "ext": "jpeg",
+        "size": 770767
       },
       {
         "name": "ON-CALL-PLUS-BANDELETTES-50.jpg",
@@ -132,28 +142,322 @@
         "size": 644424
       },
       {
+        "name": "Acare-lecteur-de-glycemie.jpg",
+        "ext": "jpg",
+        "size": 233697
+      },
+      {
         "name": "hcg.jpg",
         "ext": "jpg",
         "size": 950273
       }
+    ],
+    "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files": [
+      {
+        "name": "11ja71b.Bc2BBPMR.js",
+        "ext": "js",
+        "size": 6930
+      },
+      {
+        "name": "pngtree-handphone-aplication-chat-on-whatsapp-3d-vector-background-transparent-png-image_4544653.png",
+        "ext": "png",
+        "size": 48567
+      },
+      {
+        "name": "pngtree-creating-a-3d-concept-of-whatsapp-phone-with-iconic-pop-ups-image_3667843.jpg",
+        "ext": "jpg",
+        "size": 36954
+      },
+      {
+        "name": "zrt_lookup_fy2021.html",
+        "ext": "html",
+        "size": 8705
+      },
+      {
+        "name": "f(3).txt",
+        "ext": "txt",
+        "size": 8009
+      },
+      {
+        "name": "ads(1).html",
+        "ext": "html",
+        "size": 16230
+      },
+      {
+        "name": "go4kej.CY7hJZ-A.png",
+        "ext": "png",
+        "size": 1988
+      },
+      {
+        "name": "1s5kq3o.Crbdf44B.png",
+        "ext": "png",
+        "size": 1887
+      },
+      {
+        "name": "pngtree-whatsapp-icon-social-media-png-image_6618452.png",
+        "ext": "png",
+        "size": 26950
+      },
+      {
+        "name": "55697.js",
+        "ext": "js",
+        "size": 48338
+      },
+      {
+        "name": "saved_resource(4).html",
+        "ext": "html",
+        "size": 149
+      },
+      {
+        "name": "154x7qz.tlBchyuM.css",
+        "ext": "css",
+        "size": 77510
+      },
+      {
+        "name": "Q12zgMmT.js",
+        "ext": "js",
+        "size": 42217
+      },
+      {
+        "name": "f(2).txt",
+        "ext": "txt",
+        "size": 161092
+      },
+      {
+        "name": "47u3d6.D5hzVO0i.jpg",
+        "ext": "jpg",
+        "size": 8512
+      },
+      {
+        "name": "pngtree-icon-of-call-phone-and-communication-png-image_4765375.png",
+        "ext": "png",
+        "size": 89554
+      },
+      {
+        "name": "62bHydCX.html",
+        "ext": "html",
+        "size": 39208
+      },
+      {
+        "name": "saved_resource(2).html",
+        "ext": "html",
+        "size": 149
+      },
+      {
+        "name": "pngtree-answer-phone-call-phone-phone-call-icon-image_2291907.jpg",
+        "ext": "jpg",
+        "size": 11197
+      },
+      {
+        "name": "pngtree-call-icon-image_1128295.jpg",
+        "ext": "jpg",
+        "size": 9271
+      },
+      {
+        "name": "pngtree-whatsapp-png-image_3953683.png",
+        "ext": "png",
+        "size": 46909
+      },
+      {
+        "name": "pngtree-whatsapp-phone-icon-png-image_6315989.png",
+        "ext": "png",
+        "size": 117607
+      },
+      {
+        "name": "hwph8i.BCv5xu8h.png",
+        "ext": "png",
+        "size": 1880
+      },
+      {
+        "name": "pngtree-whatsapp-phone-icon-png-image_6618450.png",
+        "ext": "png",
+        "size": 21739
+      },
+      {
+        "name": "pngtree-adorable-hand-gripping-phone-with-whatsapp-icons-in-3d-illustration-image_3856746.jpg",
+        "ext": "jpg",
+        "size": 61053
+      },
+      {
+        "name": "wfw5xd.BtIHMO2N.css",
+        "ext": "css",
+        "size": 6140
+      },
+      {
+        "name": "f(5).txt",
+        "ext": "txt",
+        "size": 2690
+      },
+      {
+        "name": "pngtree-call-icon-image_1128297.jpg",
+        "ext": "jpg",
+        "size": 8133
+      },
+      {
+        "name": "pngtree-whatsapp-phone-with-3d-icons-popping-up-creative-illustration-image_3667844.jpg",
+        "ext": "jpg",
+        "size": 43829
+      },
+      {
+        "name": "f(4).txt",
+        "ext": "txt",
+        "size": 21338
+      },
+      {
+        "name": "saved_resource(3).html",
+        "ext": "html",
+        "size": 149
+      },
+      {
+        "name": "pngtree-whatsapp-phone-social-media-icon-png-image_6618454.png",
+        "ext": "png",
+        "size": 25262
+      },
+      {
+        "name": "saved_resource(1).html",
+        "ext": "html",
+        "size": 149
+      },
+      {
+        "name": "pngtree-adorable-hand-grasping-phone-with-whatsapp-icons-in-stunning-3d-image_3856749.jpg",
+        "ext": "jpg",
+        "size": 39157
+      },
+      {
+        "name": "pngtree-phone-call-icon-vector-png-image_2127692.jpg",
+        "ext": "jpg",
+        "size": 8261
+      },
+      {
+        "name": "ads.html",
+        "ext": "html",
+        "size": 114107
+      },
+      {
+        "name": "pngtree-phone-call-icon-vector-png-image_2125495.jpg",
+        "ext": "jpg",
+        "size": 14099
+      },
+      {
+        "name": "pngtree-phone-call-icon-vector-png-image_1996017.jpg",
+        "ext": "jpg",
+        "size": 5502
+      },
+      {
+        "name": "f(7).txt",
+        "ext": "txt",
+        "size": 223681
+      },
+      {
+        "name": "14uj6kt.BPqib3BT.jpg",
+        "ext": "jpg",
+        "size": 10266
+      },
+      {
+        "name": "f(6).txt",
+        "ext": "txt",
+        "size": 18731
+      },
+      {
+        "name": "sm_5aeee50119d75.jpg",
+        "ext": "jpg",
+        "size": 13493
+      },
+      {
+        "name": "sm_5b321c99945a2.jpg",
+        "ext": "jpg",
+        "size": 12110
+      },
+      {
+        "name": "pixel.html",
+        "ext": "html",
+        "size": 477
+      },
+      {
+        "name": "f.txt",
+        "ext": "txt",
+        "size": 440668
+      },
+      {
+        "name": "aframe.html",
+        "ext": "html",
+        "size": 902
+      },
+      {
+        "name": "pngtree-green-phone-with-white-whatsapp-icon-vector-png-image_6953408.png",
+        "ext": "png",
+        "size": 18028
+      },
+      {
+        "name": "pngtree-whatsapp-on-chat-png-detail-vector-png-image_4525869.png",
+        "ext": "png",
+        "size": 32123
+      },
+      {
+        "name": "f(1).txt",
+        "ext": "txt",
+        "size": 94347
+      },
+      {
+        "name": "pngtree-adorable-hand-showcasing-whatsapp-icons-on-smart-phone-depicting-modern-living-image_3857699.jpg",
+        "ext": "jpg",
+        "size": 46229
+      },
+      {
+        "name": "tze2z0.ZzFy1FiW.svg",
+        "ext": "svg",
+        "size": 7946
+      },
+      {
+        "name": "pngtree-phone-call-icon-vector-png-image_1725842.jpg",
+        "ext": "jpg",
+        "size": 5191
+      },
+      {
+        "name": "saved_resource.html",
+        "ext": "html",
+        "size": 149
+      },
+      {
+        "name": "2157689b6f339e4.jpg",
+        "ext": "jpg",
+        "size": 18563
+      },
+      {
+        "name": "pngtree-illustrated-whatsapp-phone-with-icon-pop-ups-in-3d-design-image_3667842.jpg",
+        "ext": "jpg",
+        "size": 42543
+      },
+      {
+        "name": "polyfills-legacy.Dgo94hBO.js",
+        "ext": "js",
+        "size": 161772
+      },
+      {
+        "name": "sm_5b321c98efaa6.jpg",
+        "ext": "jpg",
+        "size": 11493
+      }
     ]
   },
   "file_types": {
-    "html": 5,
-    "css": 5,
-    "js": 4,
+    "html": 16,
+    "css": 7,
+    "js": 8,
     "py": 1,
-    "png": 2,
+    "png": 15,
     "webp": 2,
-    "jpeg": 3,
-    "jpg": 4
+    "jpeg": 4,
+    "jpg": 24,
+    "txt": 8,
+    "svg": 1
   },
   "file_sizes": {
-    "root/index.html": 10665,
-    "root/styles.css": 6712,
+    "root/index.html": 10941,
+    "root/styles.css": 9701,
     "root/contact.html": 10937,
     "root/products.html": 13332,
-    "root/script.js": 5107,
+    "root/script.js": 18725,
     "root/navigation.js": 6662,
     "root/product-template.css": 7769,
     "root/navigation.css": 4240,
@@ -166,23 +470,84 @@
     "root/analyze_website.py": 8346,
     "assets/bandlettes50.png": 273667,
     "assets/arrow.png": 15528,
+    "assets/whatsapp-icon.png": 119824,
     "assets/bandelettes50view1.webp": 10210,
     "assets/5d25b85b334f62b41074f948fd821396.jpeg": 55873,
     "assets/dispovan-insulin-syring.jpg": 19841,
     "assets/moniteurOnCallPlus.jpg": 38501,
+    "assets/Promisemed_blood_lancet_28G.jpeg": 770767,
     "assets/ON-CALL-PLUS-BANDELETTES-50.jpg": 45613,
     "assets/93c5b8c3988f2db784e367978eed5b48.jpeg": 69079,
     "assets/bbcbef7a66e7834fc6411d54279f8b8b.jpeg": 50828,
     "assets/Bandlettes.webp": 644424,
-    "assets/hcg.jpg": 950273
+    "assets/Acare-lecteur-de-glycemie.jpg": 233697,
+    "assets/hcg.jpg": 950273,
+    "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/11ja71b.Bc2BBPMR.js": 6930,
+    "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/pngtree-handphone-aplication-chat-on-whatsapp-3d-vector-background-transparent-png-image_4544653.png": 48567,
+    "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/pngtree-creating-a-3d-concept-of-whatsapp-phone-with-iconic-pop-ups-image_3667843.jpg": 36954,
+    "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/zrt_lookup_fy2021.html": 8705,
+    "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/f(3).txt": 8009,
+    "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/ads(1).html": 16230,
+    "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/go4kej.CY7hJZ-A.png": 1988,
+    "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/1s5kq3o.Crbdf44B.png": 1887,
+    "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/pngtree-whatsapp-icon-social-media-png-image_6618452.png": 26950,
+    "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/55697.js": 48338,
+    "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/saved_resource(4).html": 149,
+    "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/154x7qz.tlBchyuM.css": 77510,
+    "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/Q12zgMmT.js": 42217,
+    "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/f(2).txt": 161092,
+    "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/47u3d6.D5hzVO0i.jpg": 8512,
+    "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/pngtree-icon-of-call-phone-and-communication-png-image_4765375.png": 89554,
+    "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/62bHydCX.html": 39208,
+    "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/saved_resource(2).html": 149,
+    "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/pngtree-answer-phone-call-phone-phone-call-icon-image_2291907.jpg": 11197,
+    "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/pngtree-call-icon-image_1128295.jpg": 9271,
+    "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/pngtree-whatsapp-png-image_3953683.png": 46909,
+    "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/pngtree-whatsapp-phone-icon-png-image_6315989.png": 117607,
+    "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/hwph8i.BCv5xu8h.png": 1880,
+    "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/pngtree-whatsapp-phone-icon-png-image_6618450.png": 21739,
+    "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/pngtree-adorable-hand-gripping-phone-with-whatsapp-icons-in-3d-illustration-image_3856746.jpg": 61053,
+    "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/wfw5xd.BtIHMO2N.css": 6140,
+    "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/f(5).txt": 2690,
+    "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/pngtree-call-icon-image_1128297.jpg": 8133,
+    "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/pngtree-whatsapp-phone-with-3d-icons-popping-up-creative-illustration-image_3667844.jpg": 43829,
+    "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/f(4).txt": 21338,
+    "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/saved_resource(3).html": 149,
+    "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/pngtree-whatsapp-phone-social-media-icon-png-image_6618454.png": 25262,
+    "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/saved_resource(1).html": 149,
+    "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/pngtree-adorable-hand-grasping-phone-with-whatsapp-icons-in-stunning-3d-image_3856749.jpg": 39157,
+    "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/pngtree-phone-call-icon-vector-png-image_2127692.jpg": 8261,
+    "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/ads.html": 114107,
+    "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/pngtree-phone-call-icon-vector-png-image_2125495.jpg": 14099,
+    "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/pngtree-phone-call-icon-vector-png-image_1996017.jpg": 5502,
+    "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/f(7).txt": 223681,
+    "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/14uj6kt.BPqib3BT.jpg": 10266,
+    "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/f(6).txt": 18731,
+    "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/sm_5aeee50119d75.jpg": 13493,
+    "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/sm_5b321c99945a2.jpg": 12110,
+    "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/pixel.html": 477,
+    "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/f.txt": 440668,
+    "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/aframe.html": 902,
+    "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/pngtree-green-phone-with-white-whatsapp-icon-vector-png-image_6953408.png": 18028,
+    "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/pngtree-whatsapp-on-chat-png-detail-vector-png-image_4525869.png": 32123,
+    "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/f(1).txt": 94347,
+    "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/pngtree-adorable-hand-showcasing-whatsapp-icons-on-smart-phone-depicting-modern-living-image_3857699.jpg": 46229,
+    "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/tze2z0.ZzFy1FiW.svg": 7946,
+    "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/pngtree-phone-call-icon-vector-png-image_1725842.jpg": 5191,
+    "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/saved_resource.html": 149,
+    "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/2157689b6f339e4.jpg": 18563,
+    "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/pngtree-illustrated-whatsapp-phone-with-icon-pop-ups-in-3d-design-image_3667842.jpg": 42543,
+    "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/polyfills-legacy.Dgo94hBO.js": 161772,
+    "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/sm_5b321c98efaa6.jpg": 11493
   },
   "frameworks_detected": [
+    "react",
     "angular"
   ],
   "html_pages": [
     {
       "path": "root/index.html",
-      "size": 10665,
+      "size": 10941,
       "metadata": {
         "title": "DiabeCare Pharmacie - Produits Sp\u00e9cialis\u00e9s pour le Diab\u00e8te",
         "meta_tags": 2,
@@ -234,12 +599,133 @@
         "stylesheets": 4,
         "forms": 1
       }
+    },
+    {
+      "path": "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/zrt_lookup_fy2021.html",
+      "size": 8705,
+      "metadata": {
+        "title": null,
+        "meta_tags": 1,
+        "scripts": 1,
+        "stylesheets": 0,
+        "forms": 0
+      }
+    },
+    {
+      "path": "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/ads(1).html",
+      "size": 16230,
+      "metadata": {
+        "title": null,
+        "meta_tags": 1,
+        "scripts": 2,
+        "stylesheets": 0,
+        "forms": 0
+      }
+    },
+    {
+      "path": "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/saved_resource(4).html",
+      "size": 149,
+      "metadata": {
+        "title": null,
+        "meta_tags": 1,
+        "scripts": 0,
+        "stylesheets": 0,
+        "forms": 0
+      }
+    },
+    {
+      "path": "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/62bHydCX.html",
+      "size": 39208,
+      "metadata": {
+        "title": null,
+        "meta_tags": 1,
+        "scripts": 1,
+        "stylesheets": 0,
+        "forms": 0
+      }
+    },
+    {
+      "path": "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/saved_resource(2).html",
+      "size": 149,
+      "metadata": {
+        "title": null,
+        "meta_tags": 1,
+        "scripts": 0,
+        "stylesheets": 0,
+        "forms": 0
+      }
+    },
+    {
+      "path": "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/saved_resource(3).html",
+      "size": 149,
+      "metadata": {
+        "title": null,
+        "meta_tags": 1,
+        "scripts": 0,
+        "stylesheets": 0,
+        "forms": 0
+      }
+    },
+    {
+      "path": "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/saved_resource(1).html",
+      "size": 149,
+      "metadata": {
+        "title": null,
+        "meta_tags": 1,
+        "scripts": 0,
+        "stylesheets": 0,
+        "forms": 0
+      }
+    },
+    {
+      "path": "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/ads.html",
+      "size": 114107,
+      "metadata": {
+        "title": null,
+        "meta_tags": 5,
+        "scripts": 13,
+        "stylesheets": 0,
+        "forms": 0
+      }
+    },
+    {
+      "path": "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/pixel.html",
+      "size": 477,
+      "metadata": {
+        "title": null,
+        "meta_tags": 1,
+        "scripts": 0,
+        "stylesheets": 0,
+        "forms": 0
+      }
+    },
+    {
+      "path": "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/aframe.html",
+      "size": 902,
+      "metadata": {
+        "title": null,
+        "meta_tags": 1,
+        "scripts": 1,
+        "stylesheets": 0,
+        "forms": 0
+      }
+    },
+    {
+      "path": "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/saved_resource.html",
+      "size": 149,
+      "metadata": {
+        "title": null,
+        "meta_tags": 1,
+        "scripts": 0,
+        "stylesheets": 0,
+        "forms": 0
+      }
     }
   ],
   "js_files": [
     {
       "path": "root/script.js",
-      "size": 5107,
+      "size": 18725,
       "imports": []
     },
     {
@@ -256,12 +742,32 @@
       "path": "root/product-page.js",
       "size": 1425,
       "imports": []
+    },
+    {
+      "path": "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/11ja71b.Bc2BBPMR.js",
+      "size": 6930,
+      "imports": []
+    },
+    {
+      "path": "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/55697.js",
+      "size": 48338,
+      "imports": []
+    },
+    {
+      "path": "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/Q12zgMmT.js",
+      "size": 42217,
+      "imports": []
+    },
+    {
+      "path": "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/polyfills-legacy.Dgo94hBO.js",
+      "size": 161772,
+      "imports": []
     }
   ],
   "css_files": [
     {
       "path": "root/styles.css",
-      "size": 6712,
+      "size": 9701,
       "imports": [
         "/api/placeholder/1200/400"
       ]
@@ -285,6 +791,16 @@
       "path": "root/mediaqueries.css",
       "size": 618,
       "imports": []
+    },
+    {
+      "path": "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/154x7qz.tlBchyuM.css",
+      "size": 77510,
+      "imports": []
+    },
+    {
+      "path": "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/wfw5xd.BtIHMO2N.css",
+      "size": 6140,
+      "imports": []
     }
   ],
   "asset_files": [
@@ -296,6 +812,11 @@
     {
       "path": "assets/arrow.png",
       "size": 15528,
+      "type": "png"
+    },
+    {
+      "path": "assets/whatsapp-icon.png",
+      "size": 119824,
       "type": "png"
     },
     {
@@ -319,6 +840,11 @@
       "type": "jpg"
     },
     {
+      "path": "assets/Promisemed_blood_lancet_28G.jpeg",
+      "size": 770767,
+      "type": "jpeg"
+    },
+    {
       "path": "assets/ON-CALL-PLUS-BANDELETTES-50.jpg",
       "size": 45613,
       "type": "jpg"
@@ -339,8 +865,173 @@
       "type": "webp"
     },
     {
+      "path": "assets/Acare-lecteur-de-glycemie.jpg",
+      "size": 233697,
+      "type": "jpg"
+    },
+    {
       "path": "assets/hcg.jpg",
       "size": 950273,
+      "type": "jpg"
+    },
+    {
+      "path": "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/pngtree-handphone-aplication-chat-on-whatsapp-3d-vector-background-transparent-png-image_4544653.png",
+      "size": 48567,
+      "type": "png"
+    },
+    {
+      "path": "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/pngtree-creating-a-3d-concept-of-whatsapp-phone-with-iconic-pop-ups-image_3667843.jpg",
+      "size": 36954,
+      "type": "jpg"
+    },
+    {
+      "path": "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/go4kej.CY7hJZ-A.png",
+      "size": 1988,
+      "type": "png"
+    },
+    {
+      "path": "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/1s5kq3o.Crbdf44B.png",
+      "size": 1887,
+      "type": "png"
+    },
+    {
+      "path": "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/pngtree-whatsapp-icon-social-media-png-image_6618452.png",
+      "size": 26950,
+      "type": "png"
+    },
+    {
+      "path": "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/47u3d6.D5hzVO0i.jpg",
+      "size": 8512,
+      "type": "jpg"
+    },
+    {
+      "path": "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/pngtree-icon-of-call-phone-and-communication-png-image_4765375.png",
+      "size": 89554,
+      "type": "png"
+    },
+    {
+      "path": "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/pngtree-answer-phone-call-phone-phone-call-icon-image_2291907.jpg",
+      "size": 11197,
+      "type": "jpg"
+    },
+    {
+      "path": "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/pngtree-call-icon-image_1128295.jpg",
+      "size": 9271,
+      "type": "jpg"
+    },
+    {
+      "path": "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/pngtree-whatsapp-png-image_3953683.png",
+      "size": 46909,
+      "type": "png"
+    },
+    {
+      "path": "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/pngtree-whatsapp-phone-icon-png-image_6315989.png",
+      "size": 117607,
+      "type": "png"
+    },
+    {
+      "path": "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/hwph8i.BCv5xu8h.png",
+      "size": 1880,
+      "type": "png"
+    },
+    {
+      "path": "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/pngtree-whatsapp-phone-icon-png-image_6618450.png",
+      "size": 21739,
+      "type": "png"
+    },
+    {
+      "path": "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/pngtree-adorable-hand-gripping-phone-with-whatsapp-icons-in-3d-illustration-image_3856746.jpg",
+      "size": 61053,
+      "type": "jpg"
+    },
+    {
+      "path": "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/pngtree-call-icon-image_1128297.jpg",
+      "size": 8133,
+      "type": "jpg"
+    },
+    {
+      "path": "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/pngtree-whatsapp-phone-with-3d-icons-popping-up-creative-illustration-image_3667844.jpg",
+      "size": 43829,
+      "type": "jpg"
+    },
+    {
+      "path": "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/pngtree-whatsapp-phone-social-media-icon-png-image_6618454.png",
+      "size": 25262,
+      "type": "png"
+    },
+    {
+      "path": "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/pngtree-adorable-hand-grasping-phone-with-whatsapp-icons-in-stunning-3d-image_3856749.jpg",
+      "size": 39157,
+      "type": "jpg"
+    },
+    {
+      "path": "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/pngtree-phone-call-icon-vector-png-image_2127692.jpg",
+      "size": 8261,
+      "type": "jpg"
+    },
+    {
+      "path": "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/pngtree-phone-call-icon-vector-png-image_2125495.jpg",
+      "size": 14099,
+      "type": "jpg"
+    },
+    {
+      "path": "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/pngtree-phone-call-icon-vector-png-image_1996017.jpg",
+      "size": 5502,
+      "type": "jpg"
+    },
+    {
+      "path": "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/14uj6kt.BPqib3BT.jpg",
+      "size": 10266,
+      "type": "jpg"
+    },
+    {
+      "path": "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/sm_5aeee50119d75.jpg",
+      "size": 13493,
+      "type": "jpg"
+    },
+    {
+      "path": "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/sm_5b321c99945a2.jpg",
+      "size": 12110,
+      "type": "jpg"
+    },
+    {
+      "path": "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/pngtree-green-phone-with-white-whatsapp-icon-vector-png-image_6953408.png",
+      "size": 18028,
+      "type": "png"
+    },
+    {
+      "path": "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/pngtree-whatsapp-on-chat-png-detail-vector-png-image_4525869.png",
+      "size": 32123,
+      "type": "png"
+    },
+    {
+      "path": "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/pngtree-adorable-hand-showcasing-whatsapp-icons-on-smart-phone-depicting-modern-living-image_3857699.jpg",
+      "size": 46229,
+      "type": "jpg"
+    },
+    {
+      "path": "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/tze2z0.ZzFy1FiW.svg",
+      "size": 7946,
+      "type": "svg"
+    },
+    {
+      "path": "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/pngtree-phone-call-icon-vector-png-image_1725842.jpg",
+      "size": 5191,
+      "type": "jpg"
+    },
+    {
+      "path": "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/2157689b6f339e4.jpg",
+      "size": 18563,
+      "type": "jpg"
+    },
+    {
+      "path": "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/pngtree-illustrated-whatsapp-phone-with-icon-pop-ups-in-3d-design-image_3667842.jpg",
+      "size": 42543,
+      "type": "jpg"
+    },
+    {
+      "path": "assets/Whatsapp Phone Icon, Whatsapp, Icon, Phone PNG and Vector with Transparent Background for Free Download_files/sm_5b321c98efaa6.jpg",
+      "size": 11493,
       "type": "jpg"
     }
   ],
